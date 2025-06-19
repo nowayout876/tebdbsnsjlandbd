@@ -1,0 +1,39 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f8f8f8;
+  margin: 0;
+  padding: 1rem;
+  color: #222;
+}
+
+#game-container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+#story-text {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+#options button {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.8rem;
+  width: 100%;
+  font-size: 1rem;
+  background-color: #00704a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#options button:hover {
+  background-color: #004d32;
+}
+

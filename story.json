@@ -1,0 +1,40 @@
+{
+  "intro": {
+    "text": "🇵🇸 You are living in Haifa, 1947. Rumors of war are spreading...",
+    "options": [
+      { "text": "Stay in your home", "next": "stay_haifa" },
+      { "text": "Leave for Nazareth", "next": "leave_haifa" }
+    ]
+  },
+  "stay_haifa": {
+    "text": "💥 Shelling begins. The British withdraw. You are trapped in your neighborhood...",
+    "options": [
+      { "text": "Hide in basement", "next": "basement" },
+      { "text": "Run to the port", "next": "port" }
+    ]
+  },
+  "leave_haifa": {
+    "text": "🚶 You flee with your family to Nazareth. The road is dangerous, checkpoints appear...",
+    "options": [
+      { "text": "Hide in an abandoned village", "next": "village_hideout" },
+      { "text": "Keep moving toward the north", "next": "north_escape" }
+    ]
+  },
+  "basement": {
+    "text": "🏚️ You stay hidden for days with little food. Eventually, you are discovered and forced out.",
+    "options": []
+  },
+  "port": {
+    "text": "🛳️ The port is full of panicked people. British ships ignore the crowd. Chaos erupts.",
+    "options": []
+  },
+  "village_hideout": {
+    "text": "🌲 The village offers temporary shelter, but is soon raided. You are displaced again.",
+    "options": []
+  },
+  "north_escape": {
+    "text": "🕊️ You cross into Lebanon as a refugee. Your home is now occupied. Your Nakba has begun.",
+    "options": []
+  }
+}
+
