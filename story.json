@@ -1,0 +1,23 @@
+{
+  "intro": {
+    "text": "You are a mother in Haifa, 1947. Rumors of war are spreading.",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Haifa_1940s.jpg",
+    "options": [
+      { "text": "Leave now", "next": "escape" },
+      { "text": "Wait for your husband", "next": "wait" }
+    ],
+    "fact": "In April 1948, over 50,000 Palestinians were expelled from Haifa."
+  },
+  "escape": {
+    "text": "You flee to Nazareth with your children.",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/d/da/Palestinian_refugees_1948.jpg",
+    "options": [],
+    "fact": "Over 750,000 Palestinians became refugees during the Nakba."
+  },
+  "wait": {
+    "text": "The bombing worsens. You are forced to flee without him.",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/1/14/Haifa_1948_Palestinians.jpg",
+    "options": [],
+    "fact": "Families were often separated during the chaos of displacement."
+  }
+}
